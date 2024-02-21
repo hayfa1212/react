@@ -1,0 +1,133 @@
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img1{
+    width: 2rem;
+    height: 3rem;
+}
+.img2{
+    width: 3rem;
+    height: 3rem;
+}
+.img3{
+    width: 3rem;
+    height: 3rem;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 90rem;
+    margin: 5rem;
+}
+.cnt1{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    
+}
+.cnt2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: rgb(83, 83, 133);
+    font-weight: bolder;
+  
+}
+.cnt3{
+    display: flex;
+    flex-direction: row;
+}
+
+.p1{
+    font-size: 2rem;
+    color: rgb(83, 83, 133);
+    margin: 0.2rem;
+    font-weight: bold;
+
+}
+.cnt4{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    border: 0.1rem solid rgb(208, 208, 216);
+    border-radius:2rem;
+}
+.cnt5{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.p2{
+    margin: 0.5rem;
+    color: rgb(83, 83, 133);
+}
+.img4{
+    width: 100vw;
+    
+}
+
+
+
+
+
+
+
+.image{
+    width: 20rem;
+    height: 20rem;
+    
+}
+.img5{
+    width: 8rem;
+    height: 2rem;
+    margin: 0.5rem;
+}
+.cnt7{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.contc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin: 5rem 0 0 20rem;
+}
+.img6{
+    width: 3rem;
+    height: 3rem;
+}
+.cnt6{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.cat{
+    background-color: rgb(47, 77, 70);
+    width: 7rem;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0 0 0  0.1rem ;
+}
+
+.price{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(47, 77, 70);
+}
+.name{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(47, 77, 70);
+}
+.cont{
+    background-color: rgba(233, 228, 228, 0.5);
+}
