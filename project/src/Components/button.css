@@ -1,0 +1,9 @@
+.buttonContinue{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(37, 37, 49);
+    color: white;
+    margin-left: 2rem;
+}

@@ -1,0 +1,10 @@
+.sumary{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   background-color: rgb(255, 255, 255);
+   border-radius: 1rem;
+   width: 20rem;
+   height: 30rem;
+  
+}
