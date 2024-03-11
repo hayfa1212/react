@@ -1,0 +1,59 @@
+import { NavLink } from "react-router-dom";
+import {Code} from "../Components/siginCommun/codeInput";
+import Logo from "../Components/siginCommun/logoSigin";
+import MessageLink from "../Components/siginCommun/messageLink";
+
+import Title from "../Components/siginCommun/title";
+import './verification.css'
+
+
+
+
+export default function VerifierAccount(){
+    const verifeCode=[
+        { id:1},  {id:2},{id:3}, {  id:4}
+    ]
+
+   
+
+    return(
+        <div className="verifieForm">
+
+            <Logo/>
+
+            <form className="verified">
+
+       <Title  title={'Acount Verification'}
+      subTitle={'Enter your 4 digits code that you received on your email.'}/>
+
+  <div className="content">
+      <p className="codeTitle">code</p>
+
+      <div className='map'>
+        {
+        verifeCode.length > 0 &&  verifeCode.map((folder) => (
+         <Code/>
+        ))}
+      </div>
+     
+      <div className='log'>
+       <p className='existmsg'>If you didn’t receive a code!</p>
+        <NavLink to={'/notfound'}><button className='logi'> Resend</button> </NavLink>
+      </div>
+      <button className='start' type="submit">continue</button>
+      </div>
+
+      
+      <MessageLink
+      msg="Already have an account?"
+      distination="Log in"
+      linked={'/'}/>
+      </form>
+      
+      </div>
+    
+    )
+}
+
+
+

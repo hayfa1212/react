@@ -1,0 +1,37 @@
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.formLogin{
+margin-top: 10rem;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+gap: 1rem;
+
+}
+
+.msgRemember{
+    display: flex;
+    justify-content: flex-start;
+  gap: 3rem;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.msg{
+font-size: 1rem;
+color: gray;
+}
+.forgot{
+    font-size: 0.8rem;
+    border:none;
+    background-color: transparent;
+    margin-top: 1.2rem;
+    color: blue;
+}

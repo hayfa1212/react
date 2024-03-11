@@ -1,0 +1,66 @@
+.inputForm{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.put{
+    width: 20rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border-color: rgb(199, 197, 197);   
+     border-width: 0.1rem;
+    
+}
+label{
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(102, 101, 101);
+}
+.erreurMsg{
+    color: rgb(145, 143, 143);
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+gap: 1rem;
+
+}
+.start{
+   
+    background-color: #1366D9;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    width: 20rem;
+height: 2.5rem;
+}
+  .emailButton{
+border-width: 0.1rem;
+background-color: transparent;
+    width: 20rem;
+height: 2.4rem;
+border-color: rgb(221, 213, 213);
+
+  }
+  .log{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .login{
+    border: none;
+    background-color: transparent;
+    color: #1452aa;
+    font-size: 1rem;
+  }
+ 
+  .google{
+  
+    width: 2rem;
+    height: 1rem;
+  }

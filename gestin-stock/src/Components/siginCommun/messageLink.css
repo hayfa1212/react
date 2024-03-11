@@ -1,0 +1,18 @@
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.login{
+    border: none;
+    background-color: transparent;
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+    color: blue;
+ margin-top: 0.8rem;
+}
+.existmsg{
+    color: grey;
+}
